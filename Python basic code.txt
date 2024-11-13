@@ -1,0 +1,39 @@
+# credit card number program
+credit_number= "1234-5678-9012-3456"
+
+last_digit= credit_number[-4:]
+print(f"xxxx-xxxx-xxxx-{last_digit}")
+
+
+#program to check the age of the customer if the customer has the age over 18 they can enter other wise not
+age=int(input("Enter your age: "))
+
+while age < 18:
+    print("you are not allowed in the bar:")
+    age = int(input("Enter your age: "))
+print("you are allowed in the bar")
+
+
+
+#food program
+food=input("Enter the food you like (q to quit): ")
+while not food == "q":
+    print(f"you like {food}")
+    food = input("Enter the food you like (q to quit): ")
+print("bye")
+
+
+
+
+
+number checking program 
+num=int(input("enter the number between 1-10:"))
+
+while num < 1 or num >10:
+    print(f"{num} is not valid")
+    num = int(input("enter the number between 1-10:"))
+print(f"this is your number: {num}")
+
+
+
+
